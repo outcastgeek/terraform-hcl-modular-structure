@@ -1,0 +1,15 @@
+
+* Terraform HCL Modular Structure (Example)
+
+  Plan and Apply Infrastructure
+
+  #+begin_src bash
+
+  terraform plan --var-file dev.tfvars
+
+  terraform apply --var-file dev.tfvars
+
+  #+end_src
+
+
+
